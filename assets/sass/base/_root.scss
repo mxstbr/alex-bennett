@@ -3,6 +3,8 @@
  */
 html {
   box-sizing: border-box;
+  background-image: url(/assets/images/groovepaper.png);
+  background-repeat: repeat;
 }
 
 /**
@@ -13,4 +15,9 @@ html {
  */
 *, ::before, ::after {
   box-sizing: inherit;
-} 
+}
+
+.main {
+	max-width: 35em;
+	margin: 2.5em auto;
+}

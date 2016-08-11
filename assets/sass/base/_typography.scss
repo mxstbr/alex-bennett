@@ -1,0 +1,63 @@
+$text-color: #333;
+
+@font-face {
+	font-family: "Pica 10";
+	src: url("/assets/fonts/pica-10-pitch-bt.ttf");
+	src: url("/assets/fonts/pica-10-pitch-bt.eot?#iefix") format("embedded-opentype"),
+		 url("/assets/fonts/pica-10-pitch-bt.ttf") format("truetype");
+}
+
+body {
+	font-size: 16px;
+	line-height: 1.5em;
+	color: $text-color;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+    line-height: 1.2em;
+}
+
+.p {
+	margin: 0.5em 0;
+}
+
+.p,
+.a,
+.li {
+	font-family: "Pica 10", "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+}
+
+.h1 {
+	font-size: 1.5em;
+	font-weight: 400;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.h2 {
+	font-size: 1.25em;
+	font-weight: 400;
+	margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.h3 {
+	font-size: 1em;
+	font-weight: 400;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+.p + .p {
+	text-indent: 1em;
+}
+
+.em {
+	font-style: italic;
+}
