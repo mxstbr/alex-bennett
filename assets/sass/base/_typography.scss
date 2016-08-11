@@ -2,9 +2,9 @@ $text-color: #333;
 
 @font-face {
 	font-family: "Pica 10";
-	src: url("/assets/fonts/pica-10-pitch-bt.ttf");
-	src: url("/assets/fonts/pica-10-pitch-bt.eot?#iefix") format("embedded-opentype"),
-		 url("/assets/fonts/pica-10-pitch-bt.ttf") format("truetype");
+	src: url("assets/fonts/pica-10-pitch-bt.ttf");
+	src: url("assets/fonts/pica-10-pitch-bt.eot?#iefix") format("embedded-opentype"),
+		 url("assets/fonts/pica-10-pitch-bt.ttf") format("truetype");
 }
 
 body {
